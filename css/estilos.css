@@ -194,7 +194,7 @@ header{
 .experts{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    
     flex-wrap: wrap;
 
 }
@@ -216,6 +216,7 @@ header{
     margin-top: 20px;
     width: 100%;
     font-weight: 400;
+    text-align: center;
 }
 
 /* footer */
@@ -333,6 +334,10 @@ footer{
         justify-content: space-evenly;
     }
 
+    .social-media-icon{
+        margin-left: 0;
+    }
+
     .social-media i{
         margin-left: 0;
     }
@@ -371,5 +376,12 @@ footer{
         width: 95%;
     }
 
+    .social-media{
+        width: 100%;
+    }
+
+    .contact-us{
+        width: 90%;
+    }
 
 }
